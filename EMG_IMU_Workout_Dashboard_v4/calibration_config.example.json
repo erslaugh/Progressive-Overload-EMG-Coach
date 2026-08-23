@@ -1,0 +1,18 @@
+{
+  "emg_bandpass_hz": [
+    20.0,
+    450.0
+  ],
+  "emg_rms_window_ms": 100.0,
+  "rep_min_distance_s": 0.7,
+  "rep_prominence_fraction": 0.15,
+  "sync_activity_threshold_fraction": 0.2,
+  "velocity_drop_stop": 0.3,
+  "velocity_drop_more_reps": 0.15,
+  "rms_rise_stop": 0.35,
+  "rms_rise_more_reps": 0.15,
+  "jerk_rise_stop": 0.5,
+  "minimum_good_reps_for_increase": 8,
+  "maximum_velocity_drop_for_increase": 0.1,
+  "maximum_rms_rise_for_increase": 0.15
+}

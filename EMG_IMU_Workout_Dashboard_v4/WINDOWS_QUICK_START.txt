@@ -1,0 +1,22 @@
+WINDOWS QUICK START
+
+1. Extract the ZIP file first.
+2. Open the extracted folder.
+3. Double-click:
+
+   INSTALL_AND_RUN.bat
+
+You do NOT need to manually type the pip command.
+
+If Windows asks whether to allow the batch file to run, choose the option to run it.
+
+Manual method:
+Open Command Prompt inside this exact folder and run:
+
+    py -m pip install -r requirements.txt
+    py workout_dashboard.py
+
+If you get:
+    Could not open requirements file
+
+you are almost certainly running the command from the wrong folder.
